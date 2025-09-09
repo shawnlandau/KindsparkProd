@@ -1,0 +1,86 @@
+[
+  {
+    "id": "real-estate-agency",
+    "title": "Real Estate Agency Increases Qualified Leads by 200%",
+    "company": "Premier Properties Group",
+    "industry": "Real Estate",
+    "challenge": "Manual lead follow-up was causing 60% of leads to fall through the cracks, resulting in lost revenue and frustrated agents.",
+    "solution": "Implemented AI-powered lead qualification and automated follow-up sequences that respond within minutes of lead submission.",
+    "results": {
+      "leadResponseTime": "95% faster",
+      "qualifiedLeads": "200% increase",
+      "revenueIncrease": "150%",
+      "timeSaved": "15 hours/week"
+    },
+    "testimonial": {
+      "text": "Kindspark AI transformed our lead management. We went from missing 60% of leads to converting 80% of qualified prospects. Our agents can now focus on closing deals instead of chasing leads.",
+      "author": "Sarah Johnson",
+      "role": "Managing Broker",
+      "company": "Premier Properties Group"
+    },
+    "tags": ["Lead Generation", "Automation", "Real Estate", "CRM Integration"]
+  },
+  {
+    "id": "contracting-company",
+    "title": "Contracting Company Reduces Manual Work by 80%",
+    "company": "Elite Construction Services",
+    "industry": "Construction",
+    "challenge": "Estimating and project management processes were consuming 20+ hours per week, limiting growth capacity.",
+    "solution": "Deployed AI automation for project estimation, client communication, and scheduling, integrated with existing project management tools.",
+    "results": {
+      "manualWorkReduction": "80%",
+      "projectCapacity": "3x increase",
+      "clientSatisfaction": "95%",
+      "revenueGrowth": "120%"
+    },
+    "testimonial": {
+      "text": "The automation has been a game-changer. We can now handle 3x more projects with the same team. Our clients love the faster response times and better communication.",
+      "author": "Mike Rodriguez",
+      "role": "Owner",
+      "company": "Elite Construction Services"
+    },
+    "tags": ["Project Management", "Automation", "Construction", "Client Communication"]
+  },
+  {
+    "id": "financial-services",
+    "title": "Financial Services Firm Boosts Revenue by 150%",
+    "company": "Wealth Management Partners",
+    "industry": "Financial Services",
+    "challenge": "Inconsistent lead nurturing and manual data entry were preventing the firm from scaling effectively.",
+    "solution": "Implemented comprehensive AI workflow for lead scoring, automated nurturing sequences, and seamless CRM integration.",
+    "results": {
+      "revenueIncrease": "150%",
+      "leadConversion": "300%",
+      "dataAccuracy": "99%",
+      "clientRetention": "95%"
+    },
+    "testimonial": {
+      "text": "Kindspark AI helped us scale from a small practice to a thriving firm. The automated lead nurturing alone increased our conversion rate by 300%. It's been transformational.",
+      "author": "David Chen",
+      "role": "Managing Partner",
+      "company": "Wealth Management Partners"
+    },
+    "tags": ["Lead Nurturing", "CRM Integration", "Financial Services", "Scaling"]
+  },
+  {
+    "id": "professional-services",
+    "title": "Consulting Firm Achieves 90% Time Savings",
+    "company": "Strategic Business Solutions",
+    "industry": "Professional Services",
+    "challenge": "Manual proposal generation and client onboarding were taking 40+ hours per week, limiting billable hours.",
+    "solution": "Automated proposal generation, client onboarding workflows, and project tracking systems with AI-powered insights.",
+    "results": {
+      "timeSavings": "90%",
+      "billableHours": "60% increase",
+      "proposalSpeed": "10x faster",
+      "clientSatisfaction": "98%"
+    },
+    "testimonial": {
+      "text": "We went from spending 40 hours on proposals to 4 hours. The AI-generated proposals are actually better than our manual ones. Our team can now focus on high-value consulting work.",
+      "author": "Lisa Thompson",
+      "role": "Principal Consultant",
+      "company": "Strategic Business Solutions"
+    },
+    "tags": ["Proposal Generation", "Workflow Automation", "Professional Services", "Efficiency"]
+  }
+]
