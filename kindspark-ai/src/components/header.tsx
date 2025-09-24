@@ -23,6 +23,7 @@ export function Header() {
   const navigation = [
     { name: "How It Works", href: "/how-it-works" },
     { name: "Case Studies", href: "/case-studies" },
+    { name: "Real Estate", href: "/real-estate" },
     { name: "Beyond AI", href: "/beyond-ai" },
     { name: "Calculator", href: "/calculator" },
     { name: "Contact", href: "/contact" },
