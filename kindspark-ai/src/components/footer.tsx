@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Linkedin, Twitter } from "lucide-react";
+import { Mail } from "lucide-react";
 import { site } from "@/lib/site-config";
 
 export function Footer() {
@@ -42,24 +42,9 @@ export function Footer() {
               <a
                 href={`mailto:${site.contactEmail}`}
                 className="text-gray-400 hover:text-primary transition-colors"
+                title="Contact us via email"
               >
                 <Mail className="h-5 w-5" />
-              </a>
-              <a
-                href={site.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href={site.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-primary transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>

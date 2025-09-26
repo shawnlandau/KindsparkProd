@@ -32,12 +32,6 @@ export const metadata: Metadata = {
     description: site.tagline,
     siteName: site.name,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: site.name,
-    description: site.tagline,
-    creator: "@kindsparkai",
-  },
   robots: {
     index: true,
     follow: true,

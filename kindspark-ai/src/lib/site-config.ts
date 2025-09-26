@@ -3,10 +3,6 @@ export const site = {
   tagline: "AI-powered growth for services & SMBs",
   domain: "kindsparkai.com",
   contactEmail: "hello@kindsparkai.com",
-  social: {
-    linkedin: "https://www.linkedin.com/company/kindsparkai",
-    twitter: "https://twitter.com/kindsparkai"
-  },
   ctas: {
     primary: { label: "Get Assessment", href: "/assessment" },
     secondary: { label: "See How It Works", href: "/how-it-works" }
