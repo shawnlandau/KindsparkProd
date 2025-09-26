@@ -41,22 +41,24 @@ export function ContactForm() {
     setSubmitError("");
 
     try {
-      const response = await fetch("/", {
+      const response = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({
-          "form-name": "contact",
-          ...data,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
 
       if (response.ok) {
         setIsSubmitted(true);
       } else {
-        throw new Error("Submission failed");
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Submission failed");
       }
-    } catch {
-      setSubmitError("Something went wrong. Please try again or contact us directly.");
+    } catch (error) {
+      setSubmitError(
+        error instanceof Error 
+          ? error.message 
+          : "Something went wrong. Please try again or contact us directly."
+      );
     } finally {
       setIsSubmitting(false);
     }
@@ -97,17 +99,9 @@ export function ContactForm() {
         </CardHeader>
         <CardContent>
           <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
             onSubmit={handleSubmit(onSubmit)}
             className="space-y-6"
           >
-            <input type="hidden" name="form-name" value="contact" />
-            <div style={{ display: "none" }}>
-              <input name="bot-field" />
-            </div>
 
             {submitError && (
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
