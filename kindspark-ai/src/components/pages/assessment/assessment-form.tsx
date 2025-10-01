@@ -47,7 +47,7 @@ export function AssessmentForm() {
     setSubmitError("");
 
     try {
-      const response = await fetch("/api/assessment", {
+      const response = await fetch("/api/assessment/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
