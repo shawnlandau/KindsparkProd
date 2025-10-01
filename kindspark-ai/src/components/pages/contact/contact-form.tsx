@@ -55,7 +55,7 @@ export function ContactForm() {
       } else {
         throw new Error("Submission failed");
       }
-    } catch (error) {
+    } catch {
       setSubmitError("Something went wrong. Please try again or contact us directly.");
     } finally {
       setIsSubmitting(false);
